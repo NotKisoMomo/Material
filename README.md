@@ -10,31 +10,11 @@ An additive upgrade layer over [TopbarPlus v3](https://github.com/1ForeverHD/Top
 
 ## Installation
 
-Drop the `Material` folder into your TopbarPlus package directory. Require `IconPatch` once after `Icon`:
+Drop `Material` into your game. Require `Icon`:
 
 ```lua
 local Icon  = require(path.Icon)
-local _     = require(path.Material.IconPatch)
 ```
-
-That is it. Every Icon instance, existing and future, gains all new methods immediately.
-
----
-
-## File Structure
-
-```
-Material/
-  IconPatch.lua          -- injects all new methods onto Icon's metatable
-  Types.lua              -- exported Luau types
-  Features/
-    Theme.lua            -- named theme registry + token translator
-    Badge.lua            -- typed badge system
-    Transition.lua       -- tween presets + per-icon override surface
-  Elements/
-    Element.lua          -- typed dropdown/menu element constructors
-```
-
 ---
 
 ## Theme System
