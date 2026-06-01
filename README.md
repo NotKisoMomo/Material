@@ -1,6 +1,6 @@
 # Material
 
-An additive upgrade layer over [TopbarPlus v3](https://github.com/1ForeverHD/TopbarPlus). Zero original files modified — all new functionality is injected via `IconPatch` at require-time.
+An additive upgrade layer over [TopbarPlus v3](https://github.com/1ForeverHD/TopbarPlus). -- all new functionality
 
 ![version](https://img.shields.io/badge/version-1.0.0--beta-6C3EF4?style=for-the-badge)
 ![luau](https://img.shields.io/badge/luau-strict--typed-6C3EF4?style=for-the-badge)
